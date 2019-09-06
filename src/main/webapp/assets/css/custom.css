@@ -1,0 +1,35 @@
+body{
+	background-color:#f2f2f2;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.main-section{
+	position: absolute;
+  	left:50%;
+  	top:50%;
+   	transform: translate(-50%, -50%);
+}
+.main-section-form{
+	border:1px solid #e2e2e2;
+	background-color:#fff;
+	padding:20px 20px 10px 20px;
+}
+.main-section img{
+	height:50px;
+	width:auto;
+	margin-bottom:20px;
+}
+.sum-btn{
+	color:#162b4e;
+	margin-top:10px;
+	font-size: 16px;
+	background-color: #A4C2F4;
+}
+.sum-btn:hover{
+	color:#162b4e;
+	background-color: #A4C2F4;
+}
+.sum-btn:focus{
+	color:#162b4e;
+	background-color: #A4C2F4;
+	border:unset;
+}
