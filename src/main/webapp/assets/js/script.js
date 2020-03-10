@@ -58,10 +58,10 @@ function onMessageReceived(payload) {
 
 	if (message.type === 'newUser') {
 		messageElement.classList.add('event-data');
-		message.content = message.sender + 'has joined the chat';
+		message.content = message.sender + ' has joined the chat';
 	} else if (message.type === 'Leave') {
 		messageElement.classList.add('event-data');
-		message.content = message.sender + 'has left the chat';
+		message.content = message.sender + ' has left the chat';
 	} else {
 		messageElement.classList.add('message-data');
 
